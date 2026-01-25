@@ -1,0 +1,79 @@
+# --- General ---
+.DS_Store
+*.log
+*.jou
+*.pb
+*.str
+*.bak
+*~
+*.db
+*.lpr
+*.o
+*.d
+
+# --- Xilinx Vivado ---
+*.xpr
+
+# Foldere generate de Vivado
+*.sim/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+.Xil/
+
+# Fisiere specifice simularii si sintezei
+*.wdb
+*.wcfg
+*.wpc
+*.wdf
+*.nav
+NA/
+xsim.dir/
+webtalk*
+xvlog.*
+xelab.*
+xsim.*
+
+# Scripturi generate automat
+*.bat
+*.sh
+glbl.v
+
+# Fisiere de configurare temporare
+*.ini
+*.prj
+*.tcl
+
+# Bitstreams
+*.bit
+*.bin
+
+# --- ModelSim / Questasim ---
+work/
+transcript
+vsim.wlf
+*.mpf
+*.mti
+_info/
+
+# --- Verilator ---
+obj_dir/
+
+# --- Synopsys / General EDA ---
+csrc/
+simv
+simv.daidir/
+ucli.key
+vc_hdrs.h
+DVEfiles/
+*.vpd
+
+# --- IDEs (VS Code, etc) ---
+.vscode/
+.idea/
+
+# --- Simulation Outputs ---
+*.vcd
+*.fsdb
+*.shm
